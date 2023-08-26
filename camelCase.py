@@ -2,8 +2,8 @@
 
 originalSentence = input("Enter your sentence: ")
 
-if originalSentence != str:
-    print("this is not a string character, try again ! please :,(")
+if originalSentence.isalnum() or originalSentence.isalnum():
+    print("this is not a string character or a sentence, try again ! please :,(")
 else:
     newSentence = originalSentence.split()
 
