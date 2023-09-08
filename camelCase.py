@@ -8,7 +8,8 @@ def display_banner():
 
 def camelCase():
     display_banner()
-    originalSentence = input("Enter your sentence: ")
+    print("Enter a sentence to convert to camelCase: ")
+    originalSentence = input("Enter your sentence here: ")
     if originalSentence.isalnum() or originalSentence.isalnum():
         print("this is not a string character or a sentence, try again ! please :,(")
     else:
