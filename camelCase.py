@@ -1,6 +1,13 @@
 # Camel Case
 
+def display_banner():
+    """ Display program name in banner """
+    msg = 'AWSOME camelCaseGenerator PROGRAM'
+    stars = '*' * len(msg)
+    print(f'\n {stars} \n {msg} \n {stars}\n')
+
 def camelCase():
+    display_banner()
     originalSentence = input("Enter your sentence: ")
     if originalSentence.isalnum() or originalSentence.isalnum():
         print("this is not a string character or a sentence, try again ! please :,(")
